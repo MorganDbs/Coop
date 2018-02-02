@@ -1,4 +1,4 @@
-# slack
+# Coop
 
 > A Vue.js project
 
@@ -18,10 +18,22 @@ npm run build
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Build desktop application Windows, MacOs, Linux
 
-Questions:
+``` bash
+# install electron and electron-packager
+npm i electron -g
+npm i electron-packager -g
 
-- Impossible d'accéder au signup + f5 qui ne marche pas
-- Création de channel -> erreur 422
-- Alternartive a updated car ca fait 4546546546 requetes a la seconde
+# build for windows
+npm run win
+
+# build for macOs
+npm run macOs
+
+# build for linux
+npm run linux
+
+# build for dev
+electron .
+```
