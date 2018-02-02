@@ -21,19 +21,24 @@ npm run build --report
 ## Build desktop application Windows, MacOs, Linux
 
 ``` bash
-# install electron and electron-packager
+
+# First
+npm run build
+
+# Then
+## install electron and electron-packager
 npm i electron -g
 npm i electron-packager -g
 
-# build for windows
+## build for windows
 npm run win
 
-# build for macOs
+### build for macOs
 npm run macOs
 
-# build for linux
+## build for linux
 npm run linux
 
-# build for dev
+## build for dev
 electron .
 ```
